@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/bwmelon97/typechain.git",
   "author": "bwmelon97 <bwmelon97@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+      "start": "node index.js",
+      "prestart": "tsc"
+  }
 }
