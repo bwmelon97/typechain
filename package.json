@@ -6,7 +6,12 @@
   "author": "bwmelon97 <bwmelon97@naver.com>",
   "license": "MIT",
   "scripts": {
-      "start": "node index.js",
-      "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "typescript": "^3.9.7"
   }
 }
