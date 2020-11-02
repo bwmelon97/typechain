@@ -18,7 +18,7 @@
 // }
 
 
-// type Animal = '개' | '고양이' | '참새' | '비둘기' | '너구리';
+type Animal = '개' | '고양이' | '참새' | '비둘기' | '너구리';
 
 // function anyFunction (animal : Animal) {
 //     return 'do Something with ' + animal;
@@ -44,15 +44,17 @@
 //     }
 // }
 
-function getSound(animal) {
-    const sound = {
-        개: '멍멍',
-        고양이: '야옹~',
-        참새: '짹짹',
-        비둘기: '구구 구 구'
-    }
-    return sound[animal] || '...?';
-}
+// function getSound(animal) {
+//     const sound = {
+//         개: '멍멍',
+//         고양이: '야옹~',
+//         참새: '짹짹',
+//         비둘기: '구구 구 구'
+//     }
+//     return sound[animal] || '...?';
+// }
 
-console.log(getSound('비둘기'));
-console.log(getSound('호박고구마'));
+// console.log(getSound('비둘기'));
+// console.log(getSound('호박고구마'));
+
+
